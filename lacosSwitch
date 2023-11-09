@@ -10,7 +10,7 @@ public class lacoswitch {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("n\t\tMenu de elogios");
+		System.out.println("\n\ttMenu de elogios");
 		System.out.println("\n1 - Família DEDICADA");
 		System.out.println("\n2 - Família DETERMINADA");
 		System.out.println("\n3 - Família PERSISTENTE");
