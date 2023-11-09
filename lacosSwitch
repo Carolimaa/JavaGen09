@@ -1,0 +1,42 @@
+package javageneration;
+
+import java.util.Scanner;
+
+public class lacoswitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int resposta;
+		
+		Scanner ler = new Scanner(System.in);
+		
+		System.out.println("n\t\tMenu de elogios");
+		System.out.println("\n1 - Família DEDICADA");
+		System.out.println("\n2 - Família DETERMINADA");
+		System.out.println("\n3 - Família PERSISTENTE");
+		System.out.println("\n4 - Família ALEGRE");
+		resposta=ler.nextInt();
+		
+		switch(resposta) {
+		case 1:
+			System.out.println("\nFamília DEDICADA");
+			break;
+		case 2:
+			System.out.println("\nFamilília DETERMINADA ");
+			break;
+		case 3:
+			System.out.println("\nFamília PERSISTENTE");
+			break;
+		case 4:
+			System.out.println("\nFamília ALEGRE");
+			break;
+		default: 
+			System.out.println("\nOpção inválida!");
+		
+		}
+		
+		
+	}
+
+
+	}
